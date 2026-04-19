@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #222;
+    border-radius: 5px;
+}
+
+.banner {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f4f4f4;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 20px;
+}
+
+.cards article {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.cards article:hover {
+    transform: scale(1.05);
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    color: white;
+    padding: 20px 30px;
+}
